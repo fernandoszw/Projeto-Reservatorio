@@ -6,7 +6,6 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
 
-    <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
 </head>
@@ -23,17 +22,17 @@
         </div>
         <button onclick="login()">Entrar</button>
         
-        <!-- Botão de "Esqueci minha senha" -->
+
         <div class="forgot-password">
             <a href="#" onclick="esqueciSenha()">Esqueci minha senha</a>
         </div>
         
-        <!-- Link para cadastro -->
+
         <div class="signup-link">
             <p>Ainda não tem uma conta? <a href="#" onclick="mostrarCadastro()">Cadastrar-se</a></p>
         </div>
         
-        <!-- Formulário de Cadastro (inicialmente oculto) -->
+
         <div id="cadastro-form" class="cadastro-form" style="display: none;">
             <h2>Cadastro</h2>
             <div class="input-section">
